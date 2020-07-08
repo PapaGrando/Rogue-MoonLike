@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 8087f3a510828c147a1538de5239a107
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2817196540104989522
+    second: Boums_0
+  - first:
+      213: -2108000067636092461
+    second: Boums_1
+  - first:
+      213: 1546971985684496933
+    second: Boums_2
+  - first:
+      213: -9192430497250088411
+    second: Boums_3
+  - first:
+      213: 8215618614692341950
+    second: Boums_4
+  - first:
+      213: -7088659599170913985
+    second: Boums_5
+  - first:
+      213: -3024299470255093397
+    second: Boums_6
+  - first:
+      213: -4962639644049238422
+    second: Boums_7
+  - first:
+      213: -6303272167060412483
+    second: Boums_8
+  - first:
+      213: 8519019460981970887
+    second: Boums_9
+  - first:
+      213: 331910099172962662
+    second: Boums_10
+  - first:
+      213: 961099604190469777
+    second: Boums_11
+  - first:
+      213: -7387912399789586182
+    second: Boums_12
+  - first:
+      213: 15075467657140111
+    second: Boums_13
+  - first:
+      213: 4009143523940085040
+    second: Boums_14
+  - first:
+      213: -6092878338983683144
+    second: Boums_15
+  - first:
+      213: -598399920194927435
+    second: Boums_16
+  - first:
+      213: 1982095444538352588
+    second: Boums_17
+  - first:
+      213: -2454230631625570167
+    second: Boums_18
+  - first:
+      213: 1653714726111980353
+    second: Boums_19
+  - first:
+      213: 2142902234521360464
+    second: Boums_20
+  - first:
+      213: -6696070508888904883
+    second: Boums_21
+  - first:
+      213: 4648797685410844383
+    second: Boums_22
+  - first:
+      213: -4378967612654488236
+    second: Boums_23
+  - first:
+      213: -3909585003401985737
+    second: Boums_24
+  - first:
+      213: 2608906831318537314
+    second: Boums_25
+  - first:
+      213: -6149068890953903708
+    second: Boums_26
+  - first:
+      213: -1955724937116097664
+    second: Boums_27
+  - first:
+      213: -5034021817844398855
+    second: Boums_28
+  - first:
+      213: -8188989222695564859
+    second: Boums_29
+  - first:
+      213: -5536141181029172204
+    second: Boums_30
+  - first:
+      213: 180781709233023951
+    second: Boums_31
+  - first:
+      213: -3863727691448487197
+    second: Boums_32
+  - first:
+      213: -160331281930369485
+    second: Boums_33
+  - first:
+      213: 6079722477905473009
+    second: Boums_34
+  - first:
+      213: -9146280620621577327
+    second: Boums_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boums_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea425944cae47e8d0800000000000000
+      internalID: -2817196540104989522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 608
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d12d0e6b11eeb2e0800000000000000
+      internalID: -2108000067636092461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 608
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522843423d2f77510800000000000000
+      internalID: 1546971985684496933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_3
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 608
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ae0f49a2ded6080800000000000000
+      internalID: -9192430497250088411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_4
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 608
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8e2d21a9db30270800000000000000
+      internalID: 8215618614692341950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_5
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 608
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3931c1e6a500ad90800000000000000
+      internalID: -7088659599170913985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b690b0db7a78706d0800000000000000
+      internalID: -3024299470255093397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 508
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a669c247989212bb0800000000000000
+      internalID: -4962639644049238422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_8
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 508
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7e1c73c574688a0800000000000000
+      internalID: -6303272167060412483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 508
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c758766013a93670800000000000000
+      internalID: 8519019460981970887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_10
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 508
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661b1960a7e2b9400800000000000000
+      internalID: 331910099172962662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_11
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 508
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e9a857ff2865d00800000000000000
+      internalID: 961099604190469777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af886d2b0dcd87990800000000000000
+      internalID: -7387912399789586182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 408
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87d686de0f853000800000000000000
+      internalID: 15075467657140111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_14
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 408
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03da10e2bc653a730800000000000000
+      internalID: 4009143523940085040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_15
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 408
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb9431ae6fb17ba0800000000000000
+      internalID: -6092878338983683144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_16
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 408
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c82b617e02b7f0800000000000000
+      internalID: -598399920194927435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_17
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 408
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e0a22e41d18b10800000000000000
+      internalID: 1982095444538352588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988431d5e32d0fdd0800000000000000
+      internalID: -2454230631625570167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_19
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 308
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bacb918cc23f610800000000000000
+      internalID: 1653714726111980353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_20
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 308
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058590d8a3e1dbd10800000000000000
+      internalID: 2142902234521360464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_21
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 308
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b25b67957c213a0800000000000000
+      internalID: -6696070508888904883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_22
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 308
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde429f4dd8d38040800000000000000
+      internalID: 4648797685410844383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_23
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 308
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455f9c43828ca33c0800000000000000
+      internalID: -4378967612654488236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731c70d372d5eb9c0800000000000000
+      internalID: -3909585003401985737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 208
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264d4d4c0f2b43420800000000000000
+      internalID: 2608906831318537314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 208
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1994f3c6e1aaaa0800000000000000
+      internalID: -6149068890953903708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_27
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 208
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08362d4188edbd4e0800000000000000
+      internalID: -1955724937116097664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_28
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 208
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f481dbf3df832ab0800000000000000
+      internalID: -5034021817844398855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_29
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 208
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c98ab760bdda5e80800000000000000
+      internalID: -8188989222695564859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c38567decab23b0800000000000000
+      internalID: -5536141181029172204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 108
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbe8b8b104428200800000000000000
+      internalID: 180781709233023951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_32
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 108
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e27f52b228416ac0800000000000000
+      internalID: -3863727691448487197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_33
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 108
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336482e6c8366cdf0800000000000000
+      internalID: -160331281930369485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_34
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 108
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd6384c1638f5450800000000000000
+      internalID: 6079722477905473009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boums_35
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 108
+        width: 303
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193cfcf0c32e11180800000000000000
+      internalID: -9146280620621577327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
