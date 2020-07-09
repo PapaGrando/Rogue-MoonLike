@@ -950,7 +950,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.45, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,7 +971,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.45, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,7 +992,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.45, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: Namka_atlas_79
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 28
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.45, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1029,7 +1029,7 @@ TextureImporter:
       name: Namka_atlas_80
       rect:
         serializedVersion: 2
-        x: 36
+        x: 37
         y: 28
         width: 32
         height: 28
@@ -1050,7 +1050,7 @@ TextureImporter:
       name: Namka_atlas_81
       rect:
         serializedVersion: 2
-        x: 68
+        x: 70
         y: 28
         width: 32
         height: 28
@@ -1076,7 +1076,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1097,7 +1097,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1118,7 +1118,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1139,7 +1139,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1160,7 +1160,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1181,7 +1181,7 @@ TextureImporter:
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1197,12 +1197,12 @@ TextureImporter:
       name: Namka_atlas_88
       rect:
         serializedVersion: 2
-        x: 196
+        x: 197
         y: 0
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1218,12 +1218,12 @@ TextureImporter:
       name: Namka_atlas_89
       rect:
         serializedVersion: 2
-        x: 228
+        x: 229
         y: 0
         width: 32
         height: 28
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.5, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1286,7 +1286,7 @@ TextureImporter:
         width: 64
         height: 48
       alignment: 9
-      pivot: {x: 0.5, y: 0.55}
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1307,7 +1307,7 @@ TextureImporter:
         width: 64
         height: 48
       alignment: 9
-      pivot: {x: 0.5, y: 0.55}
+      pivot: {x: 0.5, y: 0.58}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
