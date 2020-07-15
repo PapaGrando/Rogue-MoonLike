@@ -4,7 +4,7 @@ public class FXSnowBullet : FXActivator
 {
     private ParticleSystem _particleSystem;
 
-    void Start()
+    protected override void Start()
     {
         base.Start();
         _particleSystem = GetComponent<ParticleSystem>();

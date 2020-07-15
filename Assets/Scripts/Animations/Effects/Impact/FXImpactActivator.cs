@@ -1,9 +1,5 @@
 ﻿using UnityEngine;
 
-//todo : рефактор
-
-public class FXSpeedActivator : FXActivator { }
-
 public class FXImpactActivator : FXActivator
 {
     [SerializeField] private bool _randomize = false;
@@ -11,9 +7,9 @@ public class FXImpactActivator : FXActivator
 
     protected override void Start()
     {
+        base.Start();
         _type = _randomize ? RandomizeType() : _type;
         Animator.SetInteger("Type", _type);
-        base.Start();
     }
 
     public void EnableFx(bool val, int type)
