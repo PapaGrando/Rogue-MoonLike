@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7049209487389778874}
   - component: {fileID: 7049209487389778877}
   - component: {fileID: 7049209487389778876}
+  - component: {fileID: 7954623746363671776}
+  - component: {fileID: 431029626743753996}
   m_Layer: 0
   m_Name: CharapterNamka
   m_TagString: Untagged
@@ -129,3 +131,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17772433, y: 0.24382827}
   m_EdgeRadius: 0
+--- !u!114 &7954623746363671776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049209487389778879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2df134f58b62194ebf60772f67212e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &431029626743753996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049209487389778879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49097d9a740163c42a7fbb97e50ab06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobAnimationStates:
+    IsIdle: 1
+    Direction: 2
+    IsDamaging: 0
+    IsDead: 0
+    IsRunning: 0
+    IsJumping: 0
+    IsFalling: 0
+    IsAttacking: 0
+    OnSpecialState: 0
+    IsSpecialMove: 0
+    IsSpecialAttacking: 0

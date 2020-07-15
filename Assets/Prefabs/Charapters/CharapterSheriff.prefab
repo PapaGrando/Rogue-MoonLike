@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2745625984039543402}
   - component: {fileID: 6105625703480140144}
   - component: {fileID: 495663623742030068}
+  - component: {fileID: 2008071710787169327}
+  - component: {fileID: 6167946867023726628}
   m_Layer: 0
   m_Name: CharapterSheriff
   m_TagString: Untagged
@@ -129,3 +131,39 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2008071710787169327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2824150952477887500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2df134f58b62194ebf60772f67212e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6167946867023726628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2824150952477887500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49097d9a740163c42a7fbb97e50ab06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobAnimationStates:
+    IsIdle: 0
+    Direction: 0
+    IsDamaging: 0
+    IsDead: 0
+    IsRunning: 0
+    IsJumping: 0
+    IsFalling: 0
+    IsAttacking: 0
+    OnSpecialState: 0
+    IsSpecialMove: 0
+    IsSpecialAttacking: 0

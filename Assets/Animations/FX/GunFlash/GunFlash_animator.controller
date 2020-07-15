@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FX_animator
+  m_Name: GunFlash_animator
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400000, guid: 22060094b12abdd4583dd7c6d1d4b30b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

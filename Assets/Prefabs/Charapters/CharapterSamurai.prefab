@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4644696278105399751}
   - component: {fileID: 9198997224667907241}
   - component: {fileID: 2344364688128656780}
+  - component: {fileID: 6699204792185925301}
+  - component: {fileID: 3211174225995352232}
   m_Layer: 0
   m_Name: CharapterSamurai
   m_TagString: Untagged
@@ -129,3 +131,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6699204792185925301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230330149254985012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2df134f58b62194ebf60772f67212e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3211174225995352232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230330149254985012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf7ac5fb584910458399d46d8dd582c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
