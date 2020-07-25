@@ -1,1 +1,4 @@
-﻿public interface IMobAttackAnimatable : IMobAttackable { }
+﻿public interface IMobAttackAnimatable
+{
+    void Attack();
+}

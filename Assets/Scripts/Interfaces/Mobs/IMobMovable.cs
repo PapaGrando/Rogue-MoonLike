@@ -1,6 +1,6 @@
 ﻿public interface IMobMovable
 {
-    void Run();
-    void Jump();
+    void Run(float speed, Direction direction);
+    void Jump(float power);
     void Fall();
 }

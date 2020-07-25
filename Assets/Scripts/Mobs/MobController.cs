@@ -1,19 +1,38 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public abstract class MobController : MonoBehaviour
+public class MobController : MonoBehaviour, IMob
 {
     [SerializeField] protected MobStats MobStats;
 
-    void Start()
+    protected IMobAnimatable ImobAnimatable;
+
+    protected virtual void Start()
     {
-        
+        ImobAnimatable = GetComponent<IMobAnimatable>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void Idle()
     {
-        
+        ImobAnimatable.Idle();
+    }
+
+    public virtual void Damage()
+    {
+        ImobAnimatable.Damage();
+    }
+
+    public virtual void Death()
+    {
+        ImobAnimatable.Death();
+    }
+
+    protected virtual void OnTriggerEnter2D(Collider2D collider)
+    {
+
+    }
+
+    protected virtual void Update()
+    {
+
     }
 }

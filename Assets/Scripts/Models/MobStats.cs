@@ -1,7 +1,8 @@
 ﻿using System;
+using UnityEngine;
 
 [Serializable]
-public class MobStats
+public class MobStats : ScriptableObject
 {
     public int Health;
     public int Attack;
