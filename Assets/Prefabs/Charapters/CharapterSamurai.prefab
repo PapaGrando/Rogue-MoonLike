@@ -14,7 +14,10 @@ GameObject:
   - component: {fileID: 2344364688128656780}
   - component: {fileID: 6699204792185925301}
   - component: {fileID: 3211174225995352232}
-  m_Layer: 0
+  - component: {fileID: 3159463902651587417}
+  - component: {fileID: 1952420248842045607}
+  - component: {fileID: 7535946181557851051}
+  m_Layer: 8
   m_Name: CharapterSamurai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,18 +70,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0055595636, y: -0.014653802}
+  m_Offset: {x: -0.072986305, y: -0.058315277}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.28}
+    oldSize: {x: 2.1333334, y: 1.8666667}
     newSize: {x: 0.32, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.15017217, y: 0.21283758}
+  m_Size: {x: 0.7336552, y: 1.4198003}
   m_EdgeRadius: 0
 --- !u!212 &2344364688128656780
 SpriteRenderer:
@@ -143,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2df134f58b62194ebf60772f67212e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _touchPad: {fileID: 0}
 --- !u!114 &3211174225995352232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,3 +159,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf7ac5fb584910458399d46d8dd582c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &3159463902651587417
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230330149254985012}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 25
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1952420248842045607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230330149254985012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfaab3a616481c4f82b835b3b010671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobStatsController: {fileID: 0}
+  Velosity: {x: 0, y: 0}
+  AutoAttack: 1
+--- !u!114 &7535946181557851051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230330149254985012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0cde610ea38034ca1033f81f542ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobStats: {fileID: 11400000, guid: d986dbedb3a43bf4da029d0e4af02439, type: 2}
+  BonusesStats: {fileID: 0}

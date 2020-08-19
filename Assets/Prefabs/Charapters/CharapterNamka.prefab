@@ -14,7 +14,10 @@ GameObject:
   - component: {fileID: 7049209487389778876}
   - component: {fileID: 7954623746363671776}
   - component: {fileID: 431029626743753996}
-  m_Layer: 0
+  - component: {fileID: 3518287602443509323}
+  - component: {fileID: 6388855327508832283}
+  - component: {fileID: 2314878377758463326}
+  m_Layer: 8
   m_Name: CharapterNamka
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,21 +118,21 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00482291, y: -0.010851473}
+  m_Offset: {x: 0.0050328374, y: -0.21782029}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.28}
+    oldSize: {x: 2.1333334, y: 1.8666667}
     newSize: {x: 0.32, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17772433, y: 0.24382827}
+  m_Size: {x: 0.8518517, y: 1.4383343}
   m_EdgeRadius: 0
 --- !u!114 &7954623746363671776
 MonoBehaviour:
@@ -143,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2df134f58b62194ebf60772f67212e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _touchPad: {fileID: 0}
 --- !u!114 &431029626743753996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,15 +159,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49097d9a740163c42a7fbb97e50ab06d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MobAnimationStates:
-    IsIdle: 1
-    Direction: 2
-    IsDamaging: 0
-    IsDead: 0
-    IsRunning: 0
-    IsJumping: 0
-    IsFalling: 0
-    IsAttacking: 0
-    OnSpecialState: 0
-    IsSpecialMove: 0
-    IsSpecialAttacking: 0
+--- !u!50 &3518287602443509323
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049209487389778879}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 25
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &6388855327508832283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049209487389778879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfaab3a616481c4f82b835b3b010671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobStatsController: {fileID: 0}
+  Velosity: {x: 0, y: 0}
+  AutoAttack: 1
+--- !u!114 &2314878377758463326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049209487389778879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0cde610ea38034ca1033f81f542ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobStats: {fileID: 11400000, guid: af387c0b1a856ed4dbecf8c6895e0237, type: 2}
+  BonusesStats: {fileID: 0}

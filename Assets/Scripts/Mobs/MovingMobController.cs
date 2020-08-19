@@ -2,47 +2,124 @@
 
 public class MovingMobController : MobController, IMobMovable
 {
-    protected Rigidbody2D _rigidbody2D;
+    //Делегат EventHandler берется из интерфейса IMobMovable
+    public event EventHandler IsGroundedEvent;
+    public event EventHandler IsNearWallEvent;
+
+    protected bool IsGrounded;
+    protected bool IsNearWall;
+    protected bool IsRunning;
+    protected bool IsJumping;
     protected IMobMoveAnimatable IMobMoveAnimatable;
-    [SerializeField] private Vector2 _velosity;
-    [SerializeField] private float _gravity; //сделать константой
 
-    protected override void Start()
+    private BoxCollider2D _boxCollider;
+    private LayerMask _platformLayerMask;
+    private Vector2 _lastPos = Vector2.zero;
+
+    protected override void Awake()
     {
-        base.Start();
-        _rigidbody2D = GetComponent<Rigidbody2D>();
+        base.Awake();
         IMobMoveAnimatable = GetComponent<IMobMoveAnimatable>();
+        _boxCollider = GetComponent<BoxCollider2D>();
+        _platformLayerMask = LayerMask.GetMask("Platforms");
     }
 
-    public virtual void Run(float speed, Direction direction)
+    public virtual void Run(Direction direction)
     {
-        IMobMoveAnimatable.Run();
+        if (IsGrounded) IMobMoveAnimatable.Run();
         ImobAnimatable.SwitchSide(direction);
-        
-        if (direction == Direction.Right)
-            _velosity = new Vector2(speed, _velosity.y);
-        else if (direction == Direction.Left)
-            _velosity = new Vector2(-speed, _velosity.y);
 
-        _rigidbody2D.velocity = _velosity;
+        IsRunning = true;
+        Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        if (direction == Direction.Right)
+            Velosity = new Vector2(MobStatsController.GetStats.Speed, Velosity.y);
+        else if (direction == Direction.Left)
+            Velosity = new Vector2(-MobStatsController.GetStats.Speed, Velosity.y);
     }
 
-    public virtual void Jump(float power)
+    public virtual void Jump()
     {
-        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x,power) * Time.fixedDeltaTime;
+        if (!IsGrounded) return;
+
+        IsJumping = true;
+
+        Velosity = Vector2.up * (MobStatsController.GetStats.Speed * 5);
     }
 
     public virtual void Fall()
     {
         IMobMoveAnimatable.Fall();
-
-        _velosity = new Vector2(_velosity.x, _velosity.y + _gravity) * Time.fixedDeltaTime;
-        _rigidbody2D.velocity = _velosity;
+        IsJumping = false;
     }
 
-    protected virtual void FixedUpdate()
+    public override void Idle()
     {
-        if (_rigidbody2D.velocity != _velosity)
-            _rigidbody2D.velocity = _velosity;
+        if(IsGrounded) ImobAnimatable.Idle();
+
+        IsRunning = false;
+
+        Velosity = new Vector2(0, Velosity.y);
+        Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+
+        if (Rigidbody2D.velocity != Velosity)
+            Rigidbody2D.velocity = Velosity;
+
+        IsGrounded = CheckGround();
+        IsNearWall = CheckWalls();
+
+        if (!IsGrounded)
+        {
+            if(Rigidbody2D.velocity.y >= 0)
+                IMobMoveAnimatable.Jump();
+            else
+                Fall();
+            //гравитация при падении
+            Velosity = new Vector2(Velosity.x, Velosity.y - 1);
+        }
+        else 
+        {
+            if (!IsRunning)
+                ImobAnimatable.Idle();
+
+            if (!IsJumping)
+                Velosity = new Vector2(Velosity.x, 0);
+        }
+        
+        _lastPos = transform.position;
+    }
+
+    //todo : оптимизировать CheckGround и CheckWalls
+    private bool CheckGround()
+    {
+        //false, если коллайдер не обнаружен
+        var result = Physics2D.BoxCast(_boxCollider.bounds.center, _boxCollider.bounds.size, 0, Vector2.down,
+            (_boxCollider.bounds.extents.y + 0.1f), _platformLayerMask).collider != null;
+
+        //событие вызывается при изменении параметра, а не при каждом fixedUpdate
+        if (result != IsGrounded)
+            IsGroundedEvent?.Invoke(result);
+
+        return result;
+    }
+    
+    private bool CheckWalls()
+    {
+        var checkLeft = Physics2D.BoxCast(_boxCollider.bounds.center, _boxCollider.bounds.size / 2, 0, Vector2.left,
+            (_boxCollider.bounds.extents.x + 0.1f), _platformLayerMask).collider != null;
+        var checkRight = Physics2D.BoxCast(_boxCollider.bounds.center, _boxCollider.bounds.size / 2, 0, Vector2.right, 
+            (_boxCollider.bounds.extents.x + 0.1f), _platformLayerMask).collider != null;
+
+        var result = checkRight || checkLeft;
+
+        if (result != IsNearWall)
+            IsNearWallEvent?.Invoke(result);
+
+        return result;
     }
 }

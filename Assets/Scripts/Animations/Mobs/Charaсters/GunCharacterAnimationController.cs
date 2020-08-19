@@ -1,20 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class GunCharacterAnimationController : MobAnimationController, IMobAnimatable, IMobAttackAnimatable, IMobMoveAnimatable, IMobSpecialAnimatable
+public class GunCharacterAnimationController : MobAnimationController, IMobAnimatable, IMobMoveAnimatable, IMobSpecialAnimatable
 {
-    protected override void SetState(MobAnimationStates mobAnimationStates)
-    {
-        Animator.SetBool("Run", mobAnimationStates.IsRunning || mobAnimationStates.IsSpecialMove);
-        Animator.SetBool("Damage", mobAnimationStates.IsDamaging);
-        Animator.SetBool("Death", mobAnimationStates.IsDead);
-        Animator.SetBool("GunUp", mobAnimationStates.OnSpecialState);
-        Animator.SetBool("Jump", mobAnimationStates.IsJumping);
-        Animator.SetBool("Fall", mobAnimationStates.IsFalling);
-        Animator.SetBool("Attack", mobAnimationStates.IsAttacking || mobAnimationStates.IsSpecialAttacking);
-    }
-
     public void SwitchSide(Direction direction)
     {
         if (MobAnimationStates.IsDead) return;
@@ -42,13 +30,6 @@ public class GunCharacterAnimationController : MobAnimationController, IMobAnima
 
         SetState(MobAnimationStates);
         StartCoroutine("DamageDelay", 0.5f);
-    }
-    IEnumerable DamageDelay(float delayTime)
-    {
-        yield return new WaitForSeconds(delayTime);
-        MobAnimationStates.IsDamaging = false;
-
-        SetState(MobAnimationStates);
     }
 
     public void Death()
@@ -126,6 +107,25 @@ public class GunCharacterAnimationController : MobAnimationController, IMobAnima
     public void SpecialStateSwitch(bool val)
     {
         MobAnimationStates.OnSpecialState = val;
+        SetState(MobAnimationStates);
+    }
+
+    protected override void SetState(MobAnimationStates mobAnimationStates)
+    {
+        Animator.SetBool("Run", mobAnimationStates.IsRunning || mobAnimationStates.IsSpecialMove);
+        Animator.SetBool("Damage", mobAnimationStates.IsDamaging);
+        Animator.SetBool("Death", mobAnimationStates.IsDead);
+        Animator.SetBool("GunUp", mobAnimationStates.OnSpecialState);
+        Animator.SetBool("Jump", mobAnimationStates.IsJumping);
+        Animator.SetBool("Fall", mobAnimationStates.IsFalling);
+        Animator.SetBool("Attack", mobAnimationStates.IsAttacking || mobAnimationStates.IsSpecialAttacking);
+    }
+
+    private IEnumerable DamageDelay(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        MobAnimationStates.IsDamaging = false;
+
         SetState(MobAnimationStates);
     }
 }

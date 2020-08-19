@@ -6,10 +6,12 @@ public class MobAnimationController : MonoBehaviour
     public UnityAction AttackAnimationEnded;
     public MobAnimationStates MobAnimationStates { get; protected set; } = new MobAnimationStates();
     public Direction Direction { get; protected set; } = Direction.None;
-
+    
     protected Animator Animator;
     protected SpriteRenderer SpriteRenderer;
-
+    
+    protected bool IsGrounded;
+    protected bool Is;
     protected virtual void Start()
     {
         Animator = GetComponent<Animator>();
@@ -17,7 +19,9 @@ public class MobAnimationController : MonoBehaviour
         SetState(MobAnimationStates);
     }
 
-    protected virtual void SetState(MobAnimationStates mobAnimationStates) { }
+    protected virtual void SetState(MobAnimationStates mobAnimationStates)
+    {
+    }
 
     protected virtual void SetDirection(Direction direction)
     {
@@ -28,5 +32,8 @@ public class MobAnimationController : MonoBehaviour
     }
 
     //метод вызывается из Аниматора. 
-    public virtual void AttackAnimationEndedActionInvoke() => AttackAnimationEnded.Invoke();
+    public virtual void AttackAnimationEndedActionInvoke()
+    {
+        AttackAnimationEnded.Invoke();
+    }
 }
