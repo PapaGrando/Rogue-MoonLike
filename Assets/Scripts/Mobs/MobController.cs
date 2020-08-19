@@ -2,13 +2,19 @@
 
 public class MobController : MonoBehaviour, IMob
 {
-    [SerializeField] protected MobStats MobStats;
-
     protected IMobAnimatable ImobAnimatable;
+    protected Rigidbody2D Rigidbody2D;
+    protected float NextAttackTime;
+    [SerializeField] protected MobStatsController MobStatsController;
+    [SerializeField] protected Vector2 Velosity;
 
-    protected virtual void Start()
+    [SerializeField] private bool AutoAttack = true;
+
+    protected virtual void Awake()
     {
         ImobAnimatable = GetComponent<IMobAnimatable>();
+        Rigidbody2D = GetComponent<Rigidbody2D>();
+        MobStatsController = GetComponent<MobStatsController>();
     }
 
     public virtual void Idle()
@@ -16,7 +22,7 @@ public class MobController : MonoBehaviour, IMob
         ImobAnimatable.Idle();
     }
 
-    public virtual void Damage()
+    public virtual void Damage(float damage)
     {
         ImobAnimatable.Damage();
     }
@@ -26,12 +32,23 @@ public class MobController : MonoBehaviour, IMob
         ImobAnimatable.Death();
     }
 
-    protected virtual void OnTriggerEnter2D(Collider2D collider)
+    public virtual void Attack()
+    {}
+
+    protected virtual void Start()
     {
 
     }
 
-    protected virtual void Update()
+    protected virtual void OnTriggerEnter2D(Collider2D collider)
+    {
+    }
+
+    protected virtual void OnTriggerExit2D(Collider2D collider)
+    {
+    }
+
+    protected virtual void FixedUpdate()
     {
 
     }
