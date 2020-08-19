@@ -1,0 +1,1526 @@
+fileFormatVersion: 2
+guid: 9fdb4d54f7e3d724eb033e3b872cd6e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2663142185743309540
+    second: Namka_atlas_0
+  - first:
+      213: -3666745059948426883
+    second: Namka_atlas_1
+  - first:
+      213: -3022195366406519459
+    second: Namka_atlas_2
+  - first:
+      213: 6377091035063517546
+    second: Namka_atlas_3
+  - first:
+      213: -6631340108495175981
+    second: Namka_atlas_4
+  - first:
+      213: -3795241723506959475
+    second: Namka_atlas_5
+  - first:
+      213: -4148025926491111005
+    second: Namka_atlas_6
+  - first:
+      213: -7616346099313949613
+    second: Namka_atlas_7
+  - first:
+      213: 4914089010552758058
+    second: Namka_atlas_8
+  - first:
+      213: 6878232926226746474
+    second: Namka_atlas_9
+  - first:
+      213: 9156517870144643472
+    second: Namka_atlas_10
+  - first:
+      213: -7372128833035700570
+    second: Namka_atlas_11
+  - first:
+      213: -4365224851875382110
+    second: Namka_atlas_12
+  - first:
+      213: -7649176592926091367
+    second: Namka_atlas_13
+  - first:
+      213: 3212817367693637997
+    second: Namka_atlas_14
+  - first:
+      213: -5396543901852709397
+    second: Namka_atlas_15
+  - first:
+      213: -2693999438385404687
+    second: Namka_atlas_16
+  - first:
+      213: 3577627257650871104
+    second: Namka_atlas_17
+  - first:
+      213: 3005526177690776704
+    second: Namka_atlas_18
+  - first:
+      213: -1525761903457663965
+    second: Namka_atlas_19
+  - first:
+      213: 4990242382941576030
+    second: Namka_atlas_20
+  - first:
+      213: 3950253965483697213
+    second: Namka_atlas_21
+  - first:
+      213: 1310008859008693799
+    second: Namka_atlas_22
+  - first:
+      213: -7985954156653101139
+    second: Namka_atlas_23
+  - first:
+      213: 5712509664956414778
+    second: Namka_atlas_24
+  - first:
+      213: 632357075020063505
+    second: Namka_atlas_25
+  - first:
+      213: 7258007708588273984
+    second: Namka_atlas_26
+  - first:
+      213: -1420033674986504033
+    second: Namka_atlas_27
+  - first:
+      213: -5818861476792138239
+    second: Namka_atlas_28
+  - first:
+      213: -2059387854180694101
+    second: Namka_atlas_29
+  - first:
+      213: -6650381168874766287
+    second: Namka_atlas_30
+  - first:
+      213: -7022387035811700191
+    second: Namka_atlas_31
+  - first:
+      213: 232571663837511094
+    second: Namka_atlas_32
+  - first:
+      213: -7453287635672625805
+    second: Namka_atlas_33
+  - first:
+      213: -2610929600181385449
+    second: Namka_atlas_34
+  - first:
+      213: -4302818474103170743
+    second: Namka_atlas_35
+  - first:
+      213: -8491089283215347328
+    second: Namka_atlas_36
+  - first:
+      213: 6260390947947342834
+    second: Namka_atlas_37
+  - first:
+      213: 5031263429258619948
+    second: Namka_atlas_38
+  - first:
+      213: 5156803694171788054
+    second: Namka_atlas_39
+  - first:
+      213: -5753229858140174088
+    second: Namka_atlas_40
+  - first:
+      213: -8947648683628731963
+    second: Namka_atlas_41
+  - first:
+      213: 7689362434325575412
+    second: Namka_atlas_42
+  - first:
+      213: -7365310474383711723
+    second: Namka_atlas_43
+  - first:
+      213: -221597818638597874
+    second: Namka_atlas_44
+  - first:
+      213: -4277595893688934231
+    second: Namka_atlas_45
+  - first:
+      213: 585548537491356262
+    second: Namka_atlas_46
+  - first:
+      213: -4138251213359508817
+    second: Namka_atlas_47
+  - first:
+      213: 6445429859979456257
+    second: Namka_atlas_48
+  - first:
+      213: -1191910232907337038
+    second: Namka_atlas_49
+  - first:
+      213: 1311495072108683488
+    second: Namka_atlas_50
+  - first:
+      213: 4654275289986537366
+    second: Namka_atlas_51
+  - first:
+      213: 4663433944392935992
+    second: Namka_atlas_52
+  - first:
+      213: -233281604221968354
+    second: Namka_atlas_53
+  - first:
+      213: 709327172360048119
+    second: Namka_atlas_54
+  - first:
+      213: 854146147765157272
+    second: Namka_atlas_55
+  - first:
+      213: 3167873066032543164
+    second: Namka_atlas_56
+  - first:
+      213: 7446409955989180321
+    second: Namka_atlas_57
+  - first:
+      213: -7968225232387721698
+    second: Namka_atlas_58
+  - first:
+      213: -1950556005510237411
+    second: Namka_atlas_59
+  - first:
+      213: -5891060258059092311
+    second: Namka_atlas_60
+  - first:
+      213: 212588578674222928
+    second: Namka_atlas_61
+  - first:
+      213: -6841328135768331169
+    second: Namka_atlas_62
+  - first:
+      213: -5324328375197409452
+    second: Namka_atlas_63
+  - first:
+      213: 4205163781010269370
+    second: Namka_atlas_64
+  - first:
+      213: 8965133154713499437
+    second: Namka_atlas_65
+  - first:
+      213: -5998611783268650418
+    second: Namka_atlas_66
+  - first:
+      213: 4096194177338090094
+    second: Namka_atlas_67
+  - first:
+      213: -5764452266261523444
+    second: Namka_atlas_68
+  - first:
+      213: 2469815666710198698
+    second: Namka_atlas_69
+  - first:
+      213: -9137859711632152387
+    second: Namka_atlas_70
+  - first:
+      213: 2767680258685131376
+    second: Namka_atlas_71
+  - first:
+      213: 2598259567965317905
+    second: Namka_atlas_72
+  - first:
+      213: 7088417187217490176
+    second: Namka_atlas_73
+  - first:
+      213: -2480042747327218555
+    second: Namka_atlas_74
+  - first:
+      213: -3259655822729008026
+    second: Namka_atlas_75
+  - first:
+      213: 8866370149825843897
+    second: Namka_atlas_76
+  - first:
+      213: 8631400470457279942
+    second: Namka_atlas_77
+  - first:
+      213: -965612811940148465
+    second: Namka_atlas_78
+  - first:
+      213: 2150412251472371014
+    second: Namka_atlas_79
+  - first:
+      213: 1142418539735003006
+    second: Namka_atlas_80
+  - first:
+      213: 4751013983565315741
+    second: Namka_atlas_81
+  - first:
+      213: 143002927149782308
+    second: Namka_atlas_82
+  - first:
+      213: 2789888792718901037
+    second: Namka_atlas_83
+  - first:
+      213: -37522845617122656
+    second: Namka_atlas_84
+  - first:
+      213: -530243178893112364
+    second: Namka_atlas_85
+  - first:
+      213: -5520173275437360171
+    second: Namka_atlas_86
+  - first:
+      213: -815543798503346188
+    second: Namka_atlas_87
+  - first:
+      213: -5864614747679311207
+    second: Namka_atlas_88
+  - first:
+      213: -3297027986367619014
+    second: Namka_atlas_89
+  - first:
+      213: -2736731082495396178
+    second: Namka_atlas_90
+  - first:
+      213: 8778482932640416681
+    second: Namka_atlas_91
+  - first:
+      213: -5099743856653447414
+    second: Namka_atlas_92
+  - first:
+      213: 8837673436458245249
+    second: Namka_atlas_93
+  - first:
+      213: -6690379777517054259
+    second: Namka_atlas_94
+  - first:
+      213: 3223168273739780126
+    second: Namka_atlas_95
+  - first:
+      213: -5280102827751881222
+    second: Namka_atlas_96
+  - first:
+      213: -7538028129134952450
+    second: Namka_atlas_97
+  - first:
+      213: 8992470442771893645
+    second: Namka_atlas_98
+  - first:
+      213: 8618218080142058517
+    second: Namka_atlas_99
+  - first:
+      213: 8763853904331316608
+    second: Namka_atlas_100
+  - first:
+      213: 2997102078673348060
+    second: Namka_atlas_101
+  - first:
+      213: -2106942384522001063
+    second: Namka_atlas_102
+  - first:
+      213: -279619714978588579
+    second: Namka_atlas_103
+  - first:
+      213: -8240529256461091174
+    second: Namka_atlas_104
+  - first:
+      213: -6110173098137786529
+    second: Namka_atlas_105
+  - first:
+      213: 7785846261883601493
+    second: Namka_atlas_106
+  - first:
+      213: -5345904211991412836
+    second: Namka_atlas_107
+  - first:
+      213: 4789440406556559845
+    second: Namka_atlas_108
+  - first:
+      213: -5324108377055753487
+    second: Namka_atlas_109
+  - first:
+      213: -5849851419895037287
+    second: Namka_atlas_110
+  - first:
+      213: -4125705011958148972
+    second: Namka_atlas_111
+  - first:
+      213: -1461543832469437699
+    second: Namka_atlas_112
+  - first:
+      213: 1380974432052295514
+    second: Namka_atlas_113
+  - first:
+      213: 5030864098933418794
+    second: Namka_atlas_114
+  - first:
+      213: -8849697915343738643
+    second: Namka_atlas_115
+  - first:
+      213: 9170075961462886617
+    second: Namka_atlas_116
+  - first:
+      213: 5700944190711894961
+    second: Namka_atlas_117
+  - first:
+      213: 863481947444449090
+    second: Namka_atlas_118
+  - first:
+      213: -1154503226765683177
+    second: Namka_atlas_119
+  - first:
+      213: 8171511543740275086
+    second: Namka_atlas_120
+  - first:
+      213: -522033314850904453
+    second: Namka_atlas_121
+  - first:
+      213: -6036437045974437853
+    second: Namka_atlas_122
+  - first:
+      213: -2535580090978212477
+    second: Namka_atlas_123
+  - first:
+      213: 7403032170278697468
+    second: Namka_atlas_124
+  - first:
+      213: -6573795867153372168
+    second: Namka_atlas_125
+  - first:
+      213: 2347627281814258298
+    second: Namka_atlas_126
+  - first:
+      213: 44114094872649481
+    second: Namka_atlas_21
+  - first:
+      213: 2360625344981157950
+    second: Namka_atlas_22
+  - first:
+      213: 7392509301300858965
+    second: Namka_atlas_23
+  - first:
+      213: 3389538858718297304
+    second: Namka_atlas_24
+  - first:
+      213: 899078753561061514
+    second: Namka_atlas_25
+  - first:
+      213: 3106118949035464709
+    second: Namka_atlas_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Namka_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea569f35b165f420800000000000000
+      internalID: 2663142185743309540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d790bd39bca1d1dc0800000000000000
+      internalID: -3666745059948426883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 308
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55028793510f06d0800000000000000
+      internalID: -3022195366406519459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a610a45528aff7850800000000000000
+      internalID: 6377091035063517546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 280
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de38504e4fb8f3a0800000000000000
+      internalID: -6631340108495175981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b50a1b2c7945bc0800000000000000
+      internalID: -3795241723506959475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a10364a5604f66c0800000000000000
+      internalID: -4148025926491111005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c5f7639d4d4690800000000000000
+      internalID: -7616346099313949613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fd5ac4be9523440800000000000000
+      internalID: 4914089010552758058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c042a6764647f50800000000000000
+      internalID: 6878232926226746474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091ec755d7c721f70800000000000000
+      internalID: 9156517870144643472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6fd74b2efe0b990800000000000000
+      internalID: -7372128833035700570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 252
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acb24b002b9b63c0800000000000000
+      internalID: -4365224851875382110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99758627a6aa8d590800000000000000
+      internalID: -7649176592926091367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8efc8b10dcf2180800000000000000
+      internalID: -9137859711632152387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ad9ce0886c86620800000000000000
+      internalID: 2767680258685131376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b25d69f4fde0420800000000000000
+      internalID: 2598259567965317905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0014fdf20ed1f5260800000000000000
+      internalID: 7088417187217490176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 84
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cf6c9d24e159dd0800000000000000
+      internalID: -2480042747327218555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c2434bc4063c2d0800000000000000
+      internalID: -3259655822729008026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 56
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b21f7bdcacab0b70800000000000000
+      internalID: 8866370149825843897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 56
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5eebb2ff4e8c770800000000000000
+      internalID: 8631400470457279942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 56
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bcdb973447992f0800000000000000
+      internalID: -965612811940148465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 28
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d98a1ac8cc7dd10800000000000000
+      internalID: 2150412251472371014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 28
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa9bdeb9faadf00800000000000000
+      internalID: 1142418539735003006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 28
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ef25dcb0efee140800000000000000
+      internalID: 4751013983565315741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4259a92976c0cf100800000000000000
+      internalID: 143002927149782308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f7ad4531da7b620800000000000000
+      internalID: 2789888792718901037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a29704bb21ba7ff0800000000000000
+      internalID: -37522845617122656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db808d53a234a8f0800000000000000
+      internalID: -530243178893112364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db93f237a76463b0800000000000000
+      internalID: -5520173275437360171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff6f677c3b9ea4f0800000000000000
+      internalID: -815543798503346188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99abe0485f3bc9ea0800000000000000
+      internalID: -5864614747679311207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30690ac38a9e32d0800000000000000
+      internalID: -3297027986367619014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 204
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69b599af58369c20800000000000000
+      internalID: 3212817367693637997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 204
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedc443d9ef9b15b0800000000000000
+      internalID: -5396543901852709397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4afe1c8cdfc9ad0800000000000000
+      internalID: -2693999438385404687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 204
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bf807290946a130800000000000000
+      internalID: 3577627257650871104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08475687226c5b920800000000000000
+      internalID: 3005526177690776704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 156
+        width: 71
+        height: 48
+      alignment: 9
+      pivot: {x: 0.46, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3240594f1a763dae0800000000000000
+      internalID: -1525761903457663965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 156
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bd4520207e04540800000000000000
+      internalID: 4990242382941576030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 156
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd87a1989bc9000800000000000000
+      internalID: 44114094872649481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 156
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38c26f7e30a2c020800000000000000
+      internalID: 2360625344981157950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 156
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5501fc6da08779660800000000000000
+      internalID: 7392509301300858965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 156
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc794a22af0a0f20800000000000000
+      internalID: 3389538858718297304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 156
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88ab13ec5b2a7c00800000000000000
+      internalID: 899078753561061514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namka_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 156
+        width: 57
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5085e5b2ab62b1b20800000000000000
+      internalID: 3106118949035464709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
