@@ -2,20 +2,8 @@
 using System.Collections;
 using UnityEngine;
 
-public class SamuraiAnimationController : MobAnimationController, IMobAnimatable, IMobAttackAnimatable, IMobMoveAnimatable, IMobSpecialAnimatable
+public class SamuraiAnimationController : MobAnimationController, IMobAnimatable, IMobMoveAnimatable, IMobSpecialAnimatable
 {
-    protected override void SetState(MobAnimationStates mobAnimationStates)
-    {
-        Animator.SetBool("Run", mobAnimationStates.IsRunning);
-        Animator.SetBool("Damage", mobAnimationStates.IsDamaging);
-        Animator.SetBool("Death", mobAnimationStates.IsDead);
-        Animator.SetBool("SpecialAttack", mobAnimationStates.IsSpecialAttacking);
-        Animator.SetBool("Jump", mobAnimationStates.IsJumping);
-        Animator.SetBool("Fall", mobAnimationStates.IsFalling);
-        Animator.SetBool("Attack", mobAnimationStates.IsAttacking);
-        Animator.SetBool("Dash", mobAnimationStates.IsSpecialMove);
-    }
-
     public void SwitchSide(Direction direction)
     {
         if (MobAnimationStates.IsDead) return;
@@ -45,14 +33,6 @@ public class SamuraiAnimationController : MobAnimationController, IMobAnimatable
         StartCoroutine("DamageDelay", 0.5f);
     }
 
-    IEnumerable DamageDelay(float delayTime)
-    {
-        yield return new WaitForSeconds(delayTime);
-        MobAnimationStates.IsDamaging = false;
-
-        SetState(MobAnimationStates);
-    }
-
     public void Death()
     {
         MobAnimationStates = new MobAnimationStates
@@ -67,7 +47,7 @@ public class SamuraiAnimationController : MobAnimationController, IMobAnimatable
     {
         MobAnimationStates = new MobAnimationStates
         {
-            IsAttacking = true,
+            IsAttacking = true
         };
 
         SetState(MobAnimationStates);
@@ -77,7 +57,7 @@ public class SamuraiAnimationController : MobAnimationController, IMobAnimatable
     {
         MobAnimationStates = new MobAnimationStates
         {
-            IsRunning = true,
+            IsRunning = true
         };
 
 
@@ -124,5 +104,28 @@ public class SamuraiAnimationController : MobAnimationController, IMobAnimatable
         SetState(MobAnimationStates);
     }
 
-    public void SpecialStateSwitch(bool val) { throw new NotImplementedException("Samurai dont have special state");}
+    public void SpecialStateSwitch(bool val)
+    {
+        throw new NotImplementedException("Samurai dont have special state");
+    }
+
+    protected override void SetState(MobAnimationStates mobAnimationStates)
+    {
+        Animator.SetBool("Run", mobAnimationStates.IsRunning);
+        Animator.SetBool("Damage", mobAnimationStates.IsDamaging);
+        Animator.SetBool("Death", mobAnimationStates.IsDead);
+        Animator.SetBool("SpecialAttack", mobAnimationStates.IsSpecialAttacking);
+        Animator.SetBool("Jump", mobAnimationStates.IsJumping);
+        Animator.SetBool("Fall", mobAnimationStates.IsFalling);
+        Animator.SetBool("Attack", mobAnimationStates.IsAttacking);
+        Animator.SetBool("Dash", mobAnimationStates.IsSpecialMove);
+    }
+
+    private IEnumerable DamageDelay(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        MobAnimationStates.IsDamaging = false;
+
+        SetState(MobAnimationStates);
+    }
 }

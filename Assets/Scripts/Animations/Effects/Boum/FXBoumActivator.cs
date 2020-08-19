@@ -2,8 +2,8 @@
 
 public class FXBoumActivator : FXActivator
 {
-    [SerializeField] private bool _randomize = false;
-    [Range(0, 1)] [SerializeField] private int _type = 0;
+    [SerializeField] private readonly bool _randomize = false;
+    [Range(0, 1)] [SerializeField] private int _type;
 
     protected override void Start()
     {
@@ -22,5 +22,8 @@ public class FXBoumActivator : FXActivator
         Animator.Play("Play");
     }
 
-    public static int RandomizeType() => Random.Range(0, 2);
+    public static int RandomizeType()
+    {
+        return Random.Range(0, 2);
+    }
 }

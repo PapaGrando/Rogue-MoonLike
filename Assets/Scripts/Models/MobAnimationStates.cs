@@ -3,16 +3,16 @@
 [Serializable]
 public class MobAnimationStates
 {
-    public bool IsIdle;
+    public bool IsAttacking;
     public bool IsDamaging;
     public bool IsDead;
-    public bool IsRunning;
-    public bool IsJumping;
     public bool IsFalling;
-    public bool IsAttacking;
-    public bool OnSpecialState;
-    public bool IsSpecialMove;
+    public bool IsIdle;
+    public bool IsJumping;
+    public bool IsRunning;
     public bool IsSpecialAttacking;
+    public bool IsSpecialMove;
+    public bool OnSpecialState;
 
     public MobAnimationStates()
     {

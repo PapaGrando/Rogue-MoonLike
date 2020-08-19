@@ -1,1 +1,6 @@
-﻿public interface IMobSpecialAnimatable : IMobSpecial{ }
+﻿public interface IMobSpecialAnimatable
+{
+    void SpecialMove();
+    void SpecialAttack();
+    void SpecialStateSwitch(bool val);
+}

@@ -2,8 +2,8 @@
 
 public class FXActivator : MonoBehaviour
 {
-    [SerializeField] protected bool StartActivated = false;
     protected Animator Animator;
+    [SerializeField] protected bool StartActivated = false;
 
     protected virtual void Start()
     {
@@ -11,5 +11,8 @@ public class FXActivator : MonoBehaviour
         Animator.enabled = StartActivated;
     }
 
-    public virtual void EnableFx(bool val) => Animator.enabled = val;
+    public virtual void EnableFx(bool val)
+    {
+        Animator.enabled = val;
+    }
 }
