@@ -1,6 +1,7 @@
 ﻿public interface IMob
 {
     void Idle();
-    void Damage();
+    void Damage(float damage);
     void Death();
+    void Attack();
 }

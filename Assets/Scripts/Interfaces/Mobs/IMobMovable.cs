@@ -1,6 +1,11 @@
-﻿public interface IMobMovable
+﻿public delegate void EventHandler(bool result);
+
+public interface IMobMovable
 {
-    void Run(float speed, Direction direction);
-    void Jump(float power);
+    event EventHandler IsGroundedEvent;
+    event EventHandler IsNearWallEvent;
+
+    void Run(Direction direction);
+    void Jump();
     void Fall();
 }
