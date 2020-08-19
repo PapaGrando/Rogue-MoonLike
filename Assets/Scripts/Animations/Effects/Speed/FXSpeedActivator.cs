@@ -1,1 +1,3 @@
-﻿public class FXSpeedActivator : FXActivator { }
+﻿public class FXSpeedActivator : FXActivator
+{
+}
