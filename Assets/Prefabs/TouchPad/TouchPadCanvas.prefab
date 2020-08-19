@@ -87,8 +87,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6243b7f96aaa5604d8344e7cab2cc0c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StopMoving:
+    m_PersistentCalls:
+      m_Calls: []
   _touchPadMode: 2
-  _image: {fileID: 6894292857410811667}
+  _disabled: 0
+  _touchDelay: 0.2
 --- !u!1 &2547433908353377210
 GameObject:
   m_ObjectHideFlags: 0
