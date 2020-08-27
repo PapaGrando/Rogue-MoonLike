@@ -41,11 +41,15 @@ public class LoadingPanelController : MonoBehaviour
             else
                 UpdateProgress(_asyncLoading.progress);
 
-
             ShowProgress(_progress);
         }
 
         void UpdateProgress(float max) => _progress = Mathf.Clamp(_progress + _smoothIncrease * Time.deltaTime, 0, max);
+        void ShowProgress(float progress)
+        {
+            _square.rectTransform.localScale = new Vector3(10 * progress, 10 * progress, 1);
+            _progressText.text = $"{Mathf.Round(_progress * 100)}%";
+        }
     }
 
     void StartExitAnim()
@@ -68,12 +72,6 @@ public class LoadingPanelController : MonoBehaviour
         _asyncLoading.allowSceneActivation = false;
     }
 
-    private void ShowProgress(float progress)
-    {
-        _square.rectTransform.localScale = new Vector3(10 * progress, 10 * progress, 1);
-        _progressText.text = $"{Mathf.Round(_progress * 100)}%";
-    }
-
     //события из анимации
     public void OnScreenOutAnimationEnded() => Destroy(gameObject);
 
@@ -86,6 +84,9 @@ public class LoadingPanelController : MonoBehaviour
 
     public void SetSceneToLoad(string val)
     {
+        if (_readyToLoading)
+            return;
+
         _targetSceneName = val;
         if (_targetSceneName != "")
             _loadingText.text = "LOADING";

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
+//todo : переделать логику
 public class MobStatsController : MonoBehaviour
 {
     //События
@@ -18,7 +19,7 @@ public class MobStatsController : MonoBehaviour
     [SerializeField] private MobStats MobStats;
     [SerializeField] private MobStats BonusesStats;
 
-    //ЭТО НЕ ТЕСТИРОВАЛОСЬ
+    //тут активированные в данный момент баффы ЭТО НЕ ТЕСТИРОВАЛОСЬ
     [SerializeField] private Dictionary<BuffStats, float> BuffStats = new Dictionary<BuffStats, float>();// <бафф, время действия>
 
     void Awake()
@@ -64,6 +65,7 @@ public class MobStatsController : MonoBehaviour
 
     void Update()
     {
+        //проверка времини действия
         if (BuffStats.Count > 0)
         {
             foreach (var i in BuffStats)

@@ -11,4 +11,5 @@ public class UnityEventBool : UnityEvent<bool> { }
 /// Событие, которое возвращает структуру словаря, где Key - бафф, Value - время действия
 /// </summary>
 public class UnityEventBuffsDictionary : UnityEvent<Dictionary<BuffStats, float>> {}
+
 public class UnityEventMobStats : UnityEvent<MobStats> { }
