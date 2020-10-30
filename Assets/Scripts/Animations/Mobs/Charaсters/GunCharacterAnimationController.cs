@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
-
-public class GunCharacterAnimationController : MobAnimationController, IMobAnimatable, IMobMoveAnimatable, IMobSpecialAnimatable
+﻿public class GunCharacterAnimationController : MobAnimationController, IMobAnimatable, IMobMoveAnimatable, IMobSpecialAnimatable
 {
     public void SwitchSide(Direction direction)
     {
@@ -47,7 +44,7 @@ public class GunCharacterAnimationController : MobAnimationController, IMobAnima
         MobAnimationStates = new MobAnimationStates
         {
             IsAttacking = true,
-            IsSpecialAttacking = true
+            IsSpecialAttacking = true,
         };
 
         SetState(MobAnimationStates);
@@ -119,13 +116,6 @@ public class GunCharacterAnimationController : MobAnimationController, IMobAnima
         Animator.SetBool("Jump", mobAnimationStates.IsJumping);
         Animator.SetBool("Fall", mobAnimationStates.IsFalling);
         Animator.SetBool("Attack", mobAnimationStates.IsAttacking || mobAnimationStates.IsSpecialAttacking);
-    }
-
-    private IEnumerable DamageDelay(float delayTime)
-    {
-        yield return new WaitForSeconds(delayTime);
-        MobAnimationStates.IsDamaging = false;
-
-        SetState(MobAnimationStates);
+        Animator.SetInteger("AttackType", UnityEngine.Random.Range(1, 3+1));
     }
 }

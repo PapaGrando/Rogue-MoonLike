@@ -17,7 +17,7 @@ public class CineCameraHelper : MonoBehaviour
     {
         _cineCamera = GetComponent<CinemachineVirtualCamera>();
 
-        _cineCamera.Follow = _target != null ? _target.transform : FindObjectOfType<PlayerController>().transform;
+        _cineCamera.m_Follow = _target != null ? _target.transform : FindObjectOfType<PlayerController>().transform;
 
         //натройка коллизий камеры
         var cineConfiner = GetComponent<CinemachineConfiner>();

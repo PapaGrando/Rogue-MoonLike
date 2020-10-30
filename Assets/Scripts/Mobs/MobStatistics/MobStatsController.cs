@@ -11,27 +11,66 @@ public class MobStatsController : MonoBehaviour
     public delegate void MobStatsEventHandler(MobStats mobStats);
     public event MobStatsEventHandler MobStatsUpdated;
 
-    public MobStats GetStats => MobStats + BonusesStats;
-    public MobStats GetMobOnlyStats => MobStats;
-    public MobStats GetBonusOnlyStats => BonusesStats;
+    public MobStats GetStats => _mobStats + _bonusesStats;
+    public MobStats GetMobOnlyStats => _mobStats;
+    public MobStats GetBonusOnlyStats => _bonusesStats;
+    public MobStats GetDefaultValuesStats => _defaultValues; // для UI, лечения и тп
+    public Fraction GetFraction => _mobFraction;
     public Dictionary<BuffStats, float> GetBuffs => BuffStats;
 
-    [SerializeField] private MobStats MobStats;
-    [SerializeField] private MobStats BonusesStats;
+    [SerializeField] private MobStats _mobStats;
+    [SerializeField] private MobStats _bonusesStats;
+    [SerializeField] private MobStats _defaultValues;
+    [SerializeField] private Fraction _mobFraction;
 
     //тут активированные в данный момент баффы ЭТО НЕ ТЕСТИРОВАЛОСЬ
     [SerializeField] private Dictionary<BuffStats, float> BuffStats = new Dictionary<BuffStats, float>();// <бафф, время действия>
 
     void Awake()
     {
-        MobStats = MobStats ?? new MobStats();
-        BonusesStats = new MobStats();
+        _defaultValues = _mobStats ?? ScriptableObject.CreateInstance<MobStats>();
+        _mobStats = Instantiate(_defaultValues);
+        _bonusesStats = ScriptableObject.CreateInstance<MobStats>();
+    }
+
+    void Start()
+    {
+        MobStatsUpdated?.Invoke(GetStats);
+    }
+
+    public float GetAttackTime()
+    {
+        return Mathf.Max(0.1f, 5f - 0.25f * _mobStats.AttackSpeed);
+    }
+
+    /// <summary>
+    /// Рассчет из очков силы отталкивания (RepulsivePush) в вектор ускорения. Принимает нормализованный вектор
+    /// </summary>
+    public Vector2 GetRepulsivePushVector(Vector2 normalizedDirection)
+    {
+        normalizedDirection.Normalize();
+        return normalizedDirection * (10f / 0.5f * _mobStats.RepulsivePush);
+    }
+
+    /// <summary>
+    /// Рассчет урона
+    /// </summary>
+    public void AddDamage(int damage)
+    {
+        _mobStats.Health -= Mathf.Max(0, damage - _mobStats.Defense);
+        MobStatsUpdated?.Invoke(GetStats);
+    }
+
+    public void Heal(int points)
+    {
+        _mobStats.Health = Mathf.Min(_mobStats.Health + points, _defaultValues.Health);
+        MobStatsUpdated?.Invoke(GetStats);
     }
 
     public void AddBonuses(MobStats val)
     {
-        BonusesStats = BonusesStats + val;
-        MobStatsUpdated.Invoke(GetStats);
+        _bonusesStats = _bonusesStats + val;
+        MobStatsUpdated?.Invoke(GetStats);
     }
 
     public void AddBuff(BuffStats val)
@@ -60,29 +99,29 @@ public class MobStatsController : MonoBehaviour
         }
         //если одинакого не нашлось, просто добавляется новый
         BuffStats.Add(val, Time.time + val.ActionTime);
-        BuffsUpdated.Invoke(BuffStats);
+        BuffsUpdated?.Invoke(BuffStats);
     }
 
     void Update()
     {
-        //проверка времини действия
-        if (BuffStats.Count > 0)
+        //проверка времени действия
+        if (1 > BuffStats.Count) 
+            return;
+
+        foreach (var i in BuffStats)
         {
-            foreach (var i in BuffStats)
+            if (i.Value <= Time.time)
             {
-                if (i.Value <= Time.time)
-                {
-                    BuffStats.Remove(i.Key);
-                    BuffsUpdated.Invoke(BuffStats);
-                }
+                BuffStats.Remove(i.Key);
+                BuffsUpdated?.Invoke(BuffStats);
             }
         }
     }
 
     public void ResetBonuses()
     {
-        BonusesStats = new MobStats();
-        MobStatsUpdated.Invoke(GetStats);
+        _bonusesStats = new MobStats();
+        MobStatsUpdated?.Invoke(GetStats);
     }
 
     public void ResetBuffs()

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c32fb71a8cfcc441affb2be84cbfe0c, type: 3}
+  m_Name: LevelData_1
+  m_EditorClassIdentifier: 
+  LevelWaves: {fileID: 11400000, guid: acf36a914bffdba4e88ad6077bee558e, type: 2}
+  BackgroundsSprites:
+  - {fileID: 21300000, guid: de42b0c84fa21d24e950d67de3d9098b, type: 3}
+  - {fileID: 21300000, guid: 31e005d506a62bd48ae6fc330abc0ee2, type: 3}
+  - {fileID: 21300000, guid: b223d52725fdbed49bee0d205ad6cbfd, type: 3}
+  - {fileID: 21300000, guid: 15db3915438c5c143a8f54f2c4cab15a, type: 3}
+  - {fileID: 21300000, guid: 15db3915438c5c143a8f54f2c4cab15a, type: 3}

@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 200}
+  m_AnchoredPosition: {x: 0, y: 55.6}
+  m_SizeDelta: {x: 170.8, y: 156.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1546398543522772627
 CanvasRenderer:
@@ -90,7 +90,7 @@ MonoBehaviour:
   StopMoving:
     m_PersistentCalls:
       m_Calls: []
-  _touchPadMode: 2
+  _touchPadMode: 1
   _disabled: 0
   _touchDelay: 0.2
 --- !u!1 &2547433908353377210

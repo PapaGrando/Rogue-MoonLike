@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using UnityEngine;
 
 public class SamuraiAnimationController : MobAnimationController, IMobAnimatable, IMobMoveAnimatable, IMobSpecialAnimatable
 {
@@ -119,13 +117,6 @@ public class SamuraiAnimationController : MobAnimationController, IMobAnimatable
         Animator.SetBool("Fall", mobAnimationStates.IsFalling);
         Animator.SetBool("Attack", mobAnimationStates.IsAttacking);
         Animator.SetBool("Dash", mobAnimationStates.IsSpecialMove);
-    }
-
-    private IEnumerable DamageDelay(float delayTime)
-    {
-        yield return new WaitForSeconds(delayTime);
-        MobAnimationStates.IsDamaging = false;
-
-        SetState(MobAnimationStates);
+        Animator.SetInteger("AttackType", UnityEngine.Random.Range(1, 3 + 1));
     }
 }

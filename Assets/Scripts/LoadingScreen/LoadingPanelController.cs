@@ -57,8 +57,6 @@ public class LoadingPanelController : MonoBehaviour
         // окончательная итерация загрузки и активация анимации выхода
         _asyncLoading.allowSceneActivation = true;
 
-        SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-
         _asyncLoading.completed += x =>
         {
             SceneManager.SetActiveScene(SceneManager.GetSceneByName(_targetSceneName));

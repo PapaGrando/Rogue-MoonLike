@@ -45,12 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _loadingPanel: {fileID: 3248460187336415539, guid: 1234aa83184129c4b90e38869fdc466a,
     type: 3}
-  _nextScene: 
-  _managersToLoad:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _nextScene: Game
+  _debugConsoleUI: {fileID: 11452418, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}

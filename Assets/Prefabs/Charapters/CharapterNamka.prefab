@@ -1,5 +1,54 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &454202700895041839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4106134439376606647}
+  - component: {fileID: 1737016285659024246}
+  m_Layer: 8
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4106134439376606647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454202700895041839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7049209487389778875}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1737016285659024246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454202700895041839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa5e76bc4076504d9fd37c9187aa5d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _editor: "\u042D\u0442\u043E\u0442 \u043A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442
+    \u043F\u0435\u0440\u0435\u0434\u0430\u0435\u0442 \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u044E
+    OnTriggerEnter2D \u0438 OnTriggerExit2D, \u0442.\u043A. \u0420\u043E\u0434\u0438\u0442\u0435\u043B\u044C
+    \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u043D\u0430 \u0434\u0440\u0443\u0433\u043E\u043C
+    LayerMask"
+  _parentCollider: {fileID: 0}
 --- !u!1 &7049209487389778879
 GameObject:
   m_ObjectHideFlags: 0
@@ -17,6 +66,7 @@ GameObject:
   - component: {fileID: 3518287602443509323}
   - component: {fileID: 6388855327508832283}
   - component: {fileID: 2314878377758463326}
+  - component: {fileID: 6627656577856269247}
   m_Layer: 8
   m_Name: CharapterNamka
   m_TagString: Untagged
@@ -34,7 +84,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4106134439376606647}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53,6 +104,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -74,8 +126,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 579726749
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 2663142185743309540, guid: 9fdb4d54f7e3d724eb033e3b872cd6e1,
     type: 3}
@@ -141,7 +193,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7049209487389778879}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2df134f58b62194ebf60772f67212e4, type: 3}
   m_Name: 
@@ -159,6 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49097d9a740163c42a7fbb97e50ab06d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InvertedSide: 0
 --- !u!50 &3518287602443509323
 Rigidbody2D:
   serializedVersion: 4
@@ -192,9 +245,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abfaab3a616481c4f82b835b3b010671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyDelayAfterDeath: 2
   MobStatsController: {fileID: 0}
   Velosity: {x: 0, y: 0}
-  AutoAttack: 1
 --- !u!114 &2314878377758463326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,5 +260,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b0cde610ea38034ca1033f81f542ba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MobStats: {fileID: 11400000, guid: af387c0b1a856ed4dbecf8c6895e0237, type: 2}
-  BonusesStats: {fileID: 0}
+  _mobStats: {fileID: 11400000, guid: af387c0b1a856ed4dbecf8c6895e0237, type: 2}
+  _bonusesStats: {fileID: 0}
+  _defaultValues: {fileID: 0}
+  _mobFraction: {fileID: 11400000, guid: 3ed066dfcbd4da74a8d7af8adcdd3a63, type: 2}
+--- !u!114 &6627656577856269247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049209487389778879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae89db8e03c92e4f8574adcbaa36391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsLookingAtTarget: 0
+  AutoAttack: 1
+  CanInteract: 0
+  AutoInteract: 0
+  Target: {fileID: 0}
+  InteractableGameObjects: []
+  LookRadius: 50
+  LookUpdate: 0.3
+  CanSearchTargetByLook: 1
+  EnemyMobsInCollider: []
+  StopMoving: 0

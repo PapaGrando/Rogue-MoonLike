@@ -19,6 +19,7 @@ public class TouchPadController : MonoBehaviour, IPointerDownHandler, IPointerUp
     public void OnPointerDown(PointerEventData eventData)
     {
         if (_disabled) return;
+
         _touched = true;
 
         StartCoroutine(TouchDelayExecution());
@@ -27,6 +28,7 @@ public class TouchPadController : MonoBehaviour, IPointerDownHandler, IPointerUp
     public void OnPointerUp(PointerEventData eventData)
     {
         if (_disabled) return;
+
         _touched = false;
 
         StopCoroutine(TouchDelayExecution());
@@ -40,11 +42,8 @@ public class TouchPadController : MonoBehaviour, IPointerDownHandler, IPointerUp
         _image = GetComponent<Image>();
     }
 
-    public void SelectMode(TouchPadMode mode)
-    {
-        _touchPadMode = mode;
-    }
-
+    public void SelectMode(TouchPadMode mode) => _touchPadMode = mode;
+    
     private IEnumerator TouchDelayExecution()
     {
         yield return new WaitForSeconds(_touchDelay);
@@ -65,8 +64,8 @@ public class TouchPadController : MonoBehaviour, IPointerDownHandler, IPointerUp
 #else
         var touch = (Vector2)Input.GetTouch(0).position;
 #endif
-
         var targetPos = (Vector2) Camera.main.ScreenToWorldPoint(touch);
+
         PositionUpdated.Invoke(targetPos);
     }
 

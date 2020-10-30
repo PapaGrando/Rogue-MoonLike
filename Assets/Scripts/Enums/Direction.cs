@@ -3,6 +3,4 @@
         None,
         Right,
         Left,
-        Up,
-        Down
     }

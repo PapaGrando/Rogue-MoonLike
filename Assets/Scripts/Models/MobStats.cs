@@ -3,9 +3,11 @@
 [CreateAssetMenu(fileName = "New MobStats", menuName = "Mob Stats", order = 51)]
 public class MobStats : ScriptableObject
 {
+    //todo : обсудить статы, их расчеты, макс - мин значения
     public int Attack;
-    public int AttackSpeed;
+    public int AttackSpeed; // 1 = 3сек  каждое очко сокращает на 0.25 . Рассчет в MobStatsController    
     public int Defense;
+    public int RepulsivePush; //сила отталкивания при ударе
 
     public int Health;
     public int Strength;
@@ -18,6 +20,7 @@ public class MobStats : ScriptableObject
         AttackSpeed = 0;
         Attack = 0;
         Defense = 0;
+        RepulsivePush = 0;
         Strength = 0;
         Speed = 0;
     }
@@ -39,6 +42,8 @@ public class MobStats : ScriptableObject
             Attack = 1,
             Defense = 1,
 
+            RepulsivePush = 1,
+
             Strength = 1,
             AttackSpeed = 1,
 
@@ -53,6 +58,7 @@ public class MobStats : ScriptableObject
             Health = a.Health + b.Health,
             Attack = a.Attack + b.Attack,
             Defense = a.Defense + b.Defense,
+            RepulsivePush = a.RepulsivePush + b.RepulsivePush,
 
             Strength = a.Strength + b.Strength,
             AttackSpeed = a.AttackSpeed + a.AttackSpeed,
@@ -68,6 +74,7 @@ public class MobStats : ScriptableObject
             Health = a.Health - b.Health,
             Attack = a.Attack - b.Attack,
             Defense = a.Defense - b.Defense,
+            RepulsivePush = a.RepulsivePush - b.RepulsivePush,
 
             Strength = a.Strength - b.Strength,
             AttackSpeed = a.AttackSpeed - a.AttackSpeed,

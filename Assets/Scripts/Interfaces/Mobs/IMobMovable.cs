@@ -1,9 +1,9 @@
-﻿public delegate void EventHandler(bool result);
+﻿public delegate void EventHandlerIMobMovable(bool result);
 
 public interface IMobMovable
 {
-    event EventHandler IsGroundedEvent;
-    event EventHandler IsNearWallEvent;
+    event EventHandlerIMobMovable IsGroundedEvent;
+    event EventHandlerIMobMovable IsNearWallEvent;
 
     void Run(Direction direction);
     void Jump();

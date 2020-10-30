@@ -79,6 +79,8 @@ public class PlayerController : MonoBehaviour
         {
             _touchPad.PositionUpdated.RemoveListener(MoveToPosX);
             _touchPad.StopMoving.AddListener(StopMovingX);
+
+            if (_iMobMovable != null) _iMobMovable.IsNearWallEvent -= WallContact;
         }
     }
 }
