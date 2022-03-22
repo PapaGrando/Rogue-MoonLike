@@ -9,7 +9,11 @@
 Интелект и реакция на противника<br>
 Менюшки 
 
-https://user-images.githubusercontent.com/36087533/159388211-0f99ff57-31c8-40ca-913f-9143eb77fe59.mp4
+
+
+https://user-images.githubusercontent.com/36087533/159389346-6e8b17f6-6fff-4e00-9351-024862cf4fe6.mp4
+
+
 <br><br>
 Попытка создать свой настраиваемый фреймворк<br>
 ![image](https://user-images.githubusercontent.com/36087533/159388906-d518fa85-eb74-4d99-93dd-c465b86d8f6c.png)
